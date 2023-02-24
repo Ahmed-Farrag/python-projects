@@ -6,3 +6,6 @@ numbers = "0123456789"
 
 allVariables = chars + CHARS + symbols + numbers
 len = 16
+
+passwords = "".join(rand.sample(allVariables, len))
+print(passwords)
